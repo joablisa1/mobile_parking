@@ -1,0 +1,230 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	height: 100% auto;
+	background-color: #eeeedd;
+	
+}
+body {
+	width: 25cm;
+	margin: 0 auto;
+	padding: 12px;
+	border-top: none;
+	background: #FFF;
+	
+	
+}
+.table3{
+	width: 80%;
+	height: 12cm;
+	margin-left: 2cm;
+	line-height: 40%;
+	padding: 2px;
+	
+}
+.table4{
+ margin-left: 2cm;
+}
+.heading {
+	margin-left: 0px;
+}
+h1 {
+	font-weight: bold;
+}
+pre {
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+}
+th{
+	background: olive;
+	background: -moz-linear-gradient(olive, #43A9FF);
+	background: -o-linear-gradient(#43A9FF, olive);
+	background: -webkit-linear-gradient(olive, #0183F0);
+}
+.container {
+	width: 1cm auto;
+	margin: 10px auto;
+	background-color: #fff;
+	color: #333;
+	line-height: 130%;
+	margin-top: 0cm;
+}
+h2{
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.top {
+	padding: 4em;
+	border-bottom: 6px solid gray;
+	margin-bottom: 0cm;
+}
+
+.top {
+	background-image: url("../image/menu-header.png");
+	background-repeat: no-repeat;
+}
+
+.main-menu {
+	margin: 0px;
+	width:90%;
+	margin-right: 160px;
+}
+h1 {
+	color: blue;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.main-menu li {
+	float: right;
+	margin-left: 0px;
+	list-style: none;
+	margin-bottom: 1px;
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: #eeeedd;
+	
+}
+.main-menu a { 
+	display: block;
+	margin-right:20px;
+	padding: 1px;
+	color: #233;
+	text-decoration: none;
+	background-color: #eeeedd;
+	
+}
+.main-menu a:focus,main-menu a:hover {
+	background: #233;
+	color: #FFF;
+}
+.nav-left {
+	float: left;
+	width: 190px;
+	height:14cm;
+	margin: 0 ;
+	padding: 2px 1px 1px 1px;
+	background-color: black;
+	margin-left: 2px;
+}
+.nav-left.menu-left#menuleft,#menulink{
+	background-color: black;
+	border-bottom: 1px solid #d8d8d8;
+    border-left: 0px solid #ccc;
+    border-right: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    color:#505050;
+    float: left;
+    margin-bottom: 2px;
+    padding: 0 0 5px 0px;
+    text-decoration: none;
+    display: inline;
+}
+#menuleft,#menulink{
+	text-decoration: none;
+	list-style: none;
+	width: 120px;
+	text-shadow: none;
+	
+}
+#menulink:hover,#menulink:focus{
+	background: #233;
+	color: #FFF;
+}
+.content {
+	margin-left: 200px;
+	border-left: 1px solid gray;
+}
+
+.titlepage {
+	float: right;
+	width: 200px;
+	margin-right: 50px;
+}
+
+.titlepage {
+	background-image: url("../image/8.jpg");
+}
+
+.nav-search {
+	float: right;
+	margin-right: 0cm;
+}
+
+img {
+	float: left;
+}
+
+.footer {
+	height: 300px;
+	width: auto ;
+	margin-top:  1px;
+	margin-left: 0px;
+	padding-left: 0px;
+	background: olive;
+	background: -moz-linear-gradient(olive, #43A9FF);
+	background: -o-linear-gradient(#43A9FF, olive);
+	background: -webkit-linear-gradient(olive, #0183F0);
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+}
+#footer_bot {
+	clear: both;
+	background: url(../image/footer.png) repeat-x;
+	text-align: center;
+	height: 65px;
+	padding-top: 20px
+}
+
+#footer_bot p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #873c02;
+	font-weight: bold
+}
+
+#footer_bot a {
+	color: #873c02
+}
+
+
+.footer1 {
+	float: left;
+	padding: 30px;
+}
+
+.footer1 li  {
+	text-decoration: none;
+	list-style: none;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+a:hover,a:focus{
+	background: #233;
+	color: #FFF;
+}
+#search,#name,#adm,#stream,#forms,#sex,#email,#userpass,#model,#color,#serial,#amount,#lost_by,#penalty_fee,#phone,#username,#charged_fee,#serviced_by{
+	width: 232px;
+	height: 27px;
+	padding-top: 0;
+	padding-left: 10px;
+	padding-right: 25px;
+	border: none;
+	background: url(../image/input_bg.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-size: 15px;
+	padding-bottom: 5px;
+	font-family: helvetica,sans-serif;
+	font-weight: bold;
+	text-shadow: none;
+}
+#submit{
+	background: url(../image/send.png);
+	background-repeat:no-repeat;
+	height: 30px;
+	width: 3cm;
+}

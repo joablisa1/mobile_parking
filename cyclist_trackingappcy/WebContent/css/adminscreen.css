@@ -1,0 +1,54 @@
+.coolMenu{
+	float:right;
+	list-style: none;
+	padding: 1px;
+}
+.coolMenu li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 1em;
+    text-decoration: none;
+    border-bottom: 1px dotted green;
+    
+}
+.coolMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #43A9FF;
+}
+.coolMenu > li > a {
+    color: white;
+    font-weight: bold;
+}
+.coolMenu ul li a {
+    width: 80px;
+    background: transparent;
+}
+.coolMenu li:hover ul {
+    display: block;
+}
+.coolMenu ul li a:focus {
+    width: 80px;
+}
+.coolMenu li a {
+display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+.coolMenu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.coolMenu ul {
+    background: #43A9FF;
+}
+.coolMenu ul li a {
+    color: white;
+}
+.coolMenu ul li:hover a {
+    background: black;
+}
